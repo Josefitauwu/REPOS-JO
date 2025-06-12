@@ -1,0 +1,80 @@
+Etiquetas:
+1. Fila 1. <!DOCTYPE html> Anuncia que se está trabajando con HTML5
+2. Fila 4. <title> muestra el título de la página
+3. Fila 10. <ul> lista desordenada
+4. Fila 19. <h1> Es un encabezado 
+5. Fila 29. <p> Es un párrafo 
+6. Fila 5. href="estilos.css" Conecta con el CSS para importar los estilos creados.
+7. Fila 15. </ol> Cierra una lista ordenada
+8. Fila 11. <li> Muestra los datos en una lista
+9. Fila 21. <img src="imagen.jpg" Referencia una imagen previamente guardada con el mismo nombre en la misma carpeta.
+10. Fila 7. <body> Es el cuerpo de la página.
+
+Errores:
+1.Fila 2. Falta el lenguaje <HTML lang="en">
+2.Fila 6. Está mal escrito, debe ser </head>
+3.Fila 15. Está mal cerrado. Debe ser </ul>
+4. Fila 20. Está mal cerrado, tiene el Slash al revés. Debe ser </p>
+5.Fila 23. La lista no está cerrada en ningún lugar. Debería haber un </ul> después de la fila 26.
+6.Faltan saltos de página en todo <br>
+7. Fila 21. No se debe cerrar la imagen con </img>.
+8.Fila 24. Falta cerrar el dato de la lista con </li>
+9.
+
+PRUEBAAA!!!!
+
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alumnos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <h1>Datos de alumnos <style> </style></h1>
+    <p>En el siguiente formulario podrás ingresar tus datos.</p>
+    <p>Cómo me siento?</p>
+    <img src="fry.jpg" alt="Así me siento">
+    <style>
+         table  th, td{
+         border-style: solid; color: black;
+         border: 1px solid; color: black;
+          border-collapse: collapse;  
+          
+        }
+    </style>
+    <table>
+        
+        <th>Eres alumno </th>
+        <td>No Eres alumno</td>
+       
+        
+    </table>
+
+<caption>Qué eres?</caption>    
+<ul>
+    <li>Alumno Actual</li>
+    <li>Ex alumno</li>
+    <li>Futuro alumno</li>
+</ul>
+<h2>Ahora sí va el formulario</h2>
+<form>
+    <label for="Nombre"> Nombre <br></label>
+    <input type="text" name="Nombre " id="Nombre"><br>
+    <label for="Edad"> Edad <br></label>
+    <input type="Edad" name="Edad" id="Edad"><br>
+    <label for="Curso">Curso <br></label>
+    <input type="text" name="Curso" id="Curso"><br>
+    <label for="Email"> Mail<br></label>
+    <input type="text" name="Mail" id="Email"><br>
+    <label for="submit">Enviar <br> </label>
+    <input type="submit" name="Enviar">
+    
+
+
+</form>
+    
+</body>
+</html>
